@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: linear-gradient(#fa7257, #fc63a7);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 44px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.show-hide-button-container {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  background-color: #ffffff;
+  color: #dd1264;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  border-width: 0px;
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.first-name {
+  background-color: #fddddb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+}
+.firstName {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .show-hide-button-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
